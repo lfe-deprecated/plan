@@ -24,6 +24,11 @@ ifeq ($(OS),Darwin)
 	NEW_PATH = $(PATH):$(GEM_PATH)
 endif
 
+build:
+	@mkdir -p $(BUILD_DIR)
+	cd $(SRC) && \
+	bundle exec jekyll build --destination $(BUILD_DIR)
+
 ubuntu-deps:
 	sudo apt-get install -y nodejs nodejs-dev
 
@@ -50,11 +55,6 @@ update: install-jekyll
 
 clean:
 	rm -rf $(BUILD_DIR)
-
-build:
-	@mkdir -p $(BUILD_DIR)
-	cd $(SRC) && \
-	bundle exec jekyll build --destination $(BUILD_DIR)
 
 run:
 	cd $(SRC) && \

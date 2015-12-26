@@ -17,13 +17,13 @@ encoding: utf-8
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : LFE Blog
-tagline: A BEAM Language Blog for the Syntaxless Ones
+title : LFEX .plan
+tagline: A .plan file for the extended LFE community
 author :
   name : LFEuminati | Alien Alliance
   email : lisp-flavored-erlang@googlegroups.com
   freenode : erlang-lisp
-  github : lfe
+  github : lfex
   twitter : ErlangLisp
   googleplus : u/1/communities/103919485468949397234
   feedburner : lfe/news-and-updates
@@ -36,12 +36,13 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://blog.lfe.io/
+production_url : http://plan.lfe.io/
 paginate: 10
 paginate_path: "page:num"
 
-LFEBlog :
-  authors: ["Robert Virding", "Fred Hébert", "Duncan McGreggor", "Anurag Mendhekar"]
+DotPlan :
+  plans_dir: "plans"
+  planners: ["rvirding", "oubiwann"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -86,11 +87,11 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
-  authors_path : /authors.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  categories_path: /categories.html
+  authors_path: /authors.html
+  tags_path: /tags.html
+  atom_path: /atom.xml
+  rss_path: /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
