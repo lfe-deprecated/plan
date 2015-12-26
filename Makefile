@@ -1,6 +1,3 @@
-TITLE ?= New Post
-NEW_CMD = rake post title="$(TITLE)"
-
 ARCHFLAGS = -Wno-error=unused-command-line-argument-hard-error-in-future
 
 SRC = ./src
@@ -8,8 +5,8 @@ BASE_DIR = $(shell pwd)
 BUILD_DIR = $(BASE_DIR)/build
 REPO = $(shell git config --get remote.origin.url)
 
-STAGING_HOST = staging-blog.lfe.io
-STAGING_PATH = /var/www/lfe/staging-blog
+STAGING_HOST = staging-plan.lfe.io
+STAGING_PATH = /var/www/lfe/staging-plan
 
 OS := $(shell uname -s)
 ifeq ($(OS),Linux)
