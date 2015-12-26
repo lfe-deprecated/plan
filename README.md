@@ -7,7 +7,7 @@ View the current .plan file here:
 * [http://plan.lfe.io/](http://plan.lfe.io)
 
 
-## How To Add Your ``.plan``
+## How to Add Your ``.plan``
 
 Want to add your own entry to the LFEX ``.plan`` file? Just:
 
