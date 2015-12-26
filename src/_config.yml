@@ -10,7 +10,7 @@ kramdown:
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "Makefile",
-          "Gemfile*", "changelog.md"]
+          "Gemfile*", "changelog.md", "plans"]
 highlighter: pygments
 encoding: utf-8
 
@@ -86,10 +86,10 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
-  categories_path: /categories.html
-  authors_path: /authors.html
-  tags_path: /tags.html
+  #archive_path: /archive.html
+  #categories_path: /categories.html
+  #authors_path: /authors.html
+  #tags_path: /tags.html
   atom_path: /atom.xml
   rss_path: /rss.xml
 
