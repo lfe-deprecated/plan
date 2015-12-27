@@ -42,7 +42,7 @@ paginate_path: "page:num"
 
 DotPlan :
   plans_dir: "plans"
-  planners: ["rvirding", "oubiwann"]
+  planners: ["rvirding", "oubiwann", "yurrriq"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
