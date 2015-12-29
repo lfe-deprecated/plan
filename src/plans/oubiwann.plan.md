@@ -46,6 +46,12 @@
   - add ``gen_server`` or ``gen_event`` to help track object state
 * Convert nascent Clojure Twitter Linux client ([meep][]) to LFE + [ℓGTK][]
 
+### Databases
+
+* Finish the [Mnesia tutorial][]
+* Add more functions to the Redis library, [ledis][]
+* Help out with the Riak client [lric][]
+
 ### AI
 
 * Pick up GP tutorial again
@@ -77,3 +83,6 @@
 [wrapping OTP behaviours with LFE macros]: https://github.com/oubiwann/behaviour-macros
 [SHOP2]: https://www.jair.org/media/1141/live-1141-2152-jair.pdf
 [Handbook of Neuroevolution Through Erlang]: http://www.springer.com/us/book/9781461444626
+[Mnesia tutorial]: http://docs.lfe.io/tutorials/mnesia/1.html
+[ledis]: https://github.com/lfex/ledis
+[lric]: https://github.com/lfex/lric
