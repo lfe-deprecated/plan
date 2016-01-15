@@ -2,6 +2,9 @@
 
 ### Web
 
+* Get URL-parsing into lhc library
+* Get LFE OAuth library working
+* Create LFE Twitter client
 * [LFE + YAWS + WebSockets][] & related blog post
 * Continue with [lrootes][], a composable rewrite of [lfest][]
 
